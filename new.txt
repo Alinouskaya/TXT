@@ -1,0 +1,6 @@
+        Last name:Alinouskaya;
+        First name:Yana;
+        Middle name:Aliaksandrovna;
+        Age:26;
+        Pet: 1;
+        Desired salary:500.
