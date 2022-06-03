@@ -1,1 +1,3 @@
-
+Title:The part of the logo is not visible
+Actual result:The logo is cropped
+Expected result":The logo is displayed in full size
