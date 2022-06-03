@@ -1,0 +1,59 @@
+1. Создать внешний репозиторий c названием TXT. click "+" - new repository
+2. Клонировать репозиторий TXT на локальный компьютер. git clone ссылка на репозиторий
+3. Внутри локального TXT создать файл “new.txt”. cd TXT (main) touch new.txt
+4. Добавить файл под гит. git add .
+5. Закоммитить файл. git commit -m ""
+6. Отправить файл на внешний GitHub репозиторий. git push
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT. vim new.txt
+"Last name":"Alinouskaya",
+        "First name":"Yana",
+        "Middle name":"Aliaksandrovna",
+        "Age":26,
+        "Pet": 1,
+        "Desired salary":500
+8. Отправить изменения на внешний репозиторий. git commit -am "added personal data" - git push
+9. Создать файл preferences.txt touch preferences.txt
+10. В файл preferences.txt” добавить информацию о своих пcaредпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+        Favourite film:"Matrix;
+        Favourite serial:The Office;
+        Favourite food:Tom Yam;
+        Favourite season":"spring;
+        The country I want to visit:Japan.
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT cat > skills.txt
+Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC
+         What is the client-server architecture
+         HTTP methods of requests to the server
+         HTTP server response codes
+         Structures of HTTP requests and responses
+         What is JSON, XML. Their structure
+         API testing via Postman (JS, API autotests)
+         Removing and reading logs from an external server
+         Sniffing http web traffic through Charles and Fiddler
+         Dev Tools of web browsers (Google Chrome, FireFox)
+         VPN. (How it works, why it is needed, how to use it, tool options)
+         Mobile testing
+         Feature of iOS, Android, guidelines
+         Build iOS apps on XCode. (Those who don't have a Mac computer will just take a look)
+         Build Android apps on Android Studio
+         ADB (android device management)
+         Setting up proxy and vpn on iOS and Android
+         Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android
+         Linux command line (terminal) (copying, creating, viewing, moving files on servers without a graphical interface)
+         Basics of bash scripting, automation of routine tasks on the server
+         Access to remote servers
+         "Basics of SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)
+         Postgres database (installation, configuration and use)
+         Non-relational database Redis (installation, configuration and use)
+         Load testing in Jmeter
+         Scrum development methodology
+         Python
+12. Сделать коммит в одну строку. git commit -m ""
+13. Отправить сразу 2 файла на внешний репозиторий. git add .
+14. На веб интерфейсе создать файл bug_report.txt. add file - create new file - name your file...
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. commit directly to the main branch
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. edit this file...
+  Title:The part of the logo is not visible
+  Actual result:The logo is cropped
+  Expected result":The logo is displayed in full size
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. commit directly to the main branch
+18. Синхронизировать внешний и локальный репозиторий TXT git pull
